@@ -78,7 +78,7 @@ while not stop_loop:
     #Updates the plot in real time with a tiny pause 0.001 sec
     ax.clear()
     ax.imshow(result_rgb)
-    ax.set_title("Red Color Detection : 'q' to quit")
+    ax.set_title("RealTime Color Detection : 'q' to quit")
     ax.axis('off')
     plt.pause(0.001)
 
